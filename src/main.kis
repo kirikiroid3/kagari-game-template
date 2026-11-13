@@ -1,6 +1,7 @@
 //! The root module: declares the other modules and describes the game system.
 
 mod effect;
+mod imports;
 mod scenario;
 mod scripts;
 mod system;
