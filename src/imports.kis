@@ -1,3 +1,6 @@
 pub const HOME_BGM: AudioAsset = asset("music/Symphony no. 5-2-II Andante conmoto.mp3");
 pub const CHARACTER_APPEAR_BGM: AudioAsset = asset("music/fugue-no-1-in-c-major-bwv-846-893.mp3");
 pub const REGULAR_BGM: AudioAsset = asset("music/etude-in-e-major-op-10-no-3.mp3");
+
+pub const BG_ROAD: ImageAsset = asset("bgimage/road.png");
+pub const BG_GREENERY: ImageAsset = asset("bgimage/greenery.png");

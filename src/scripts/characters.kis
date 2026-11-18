@@ -2,9 +2,13 @@
 
 use std::screen::BOTTOM_CENTER;
 
-pub const CHARACTER1: Character = character(EntityId(1)).anchor(BOTTOM_CENTER);
+pub const AZUMA: Character = character(EntityId(1)).anchor(BOTTOM_CENTER);
 
-pub mod CHARACTER1 {
-    pub const NORMAL: ImageAsset = asset("characters/character1/image/normal.png");
-    pub const VOICE_0001: VoiceAsset = asset("characters/character1/voice/0001.wav");
+pub mod AZUMA {
+    pub const IMG_NORMAL: [ImageAsset; 1] = [asset("characters/azuma/image/0-0.png")];
+    pub const IMG_VK_SLEEPY: [ImageAsset; 3] = [
+        asset("characters/azuma/image/1-2-0.png"),
+        asset("characters/azuma/image/1-2-1-0.png"),
+        asset("characters/azuma/image/1-2-1-1.png"),
+    ];
 }
