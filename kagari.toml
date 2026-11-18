@@ -4,7 +4,7 @@ version = "0.1.0"
 entry = "src/main.kis"
 
 [toolchain]
-kagari = "0.3"
+kagari = "0.4"
 
 [assets]
 dir = "assets"
